@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4ebdd"><title>Precious Birthday!!!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Parisienne&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=20261111-unified-text-links-2">
+</head>
+<body>
+<main>
+  <section class="scene active" id="welcome" aria-label="Welcome">
+    <div class="welcome-wrap"><div class="envelope" id="envelope" role="button" tabindex="0" aria-label="Open your letter"><div class="env-back"></div><div class="letter-peek">a little something<br>for you</div><div class="env-flap"></div><div class="env-front"></div><div class="seal">✿</div><span class="sprig">❧</span></div><p class="prompt">Tap to open</p></div>
+  </section>
+  <section class="scene" id="music"><div class="paper intro"><p class="eyebrow">Songs para sa malas sa pagibig</p>
+    <h1>Songs that reminds me of you</h1>
+    <p class="script">Everytime this plays ikaw naiisip ko teh</p>
+    <div class="cassette" aria-label="Vintage cassette">
+      <div class="cassette-label">
+        <span>Cassete tape 1 idk</span>
+        <div class="reel"><i></i><i></i><b></b></div><div class="reel"><i></i><i></i><b></b></div><div class="tape-window"></div><small>SIDE A · MIX NO. 01</small></div><div class="tape-buttons"><button data-action="prev" aria-label="Previous song">◂◂</button><button data-action="play" aria-label="Play song">▶</button><button data-action="next" aria-label="Next song">▸▸</button></div></div>
+    <div id="playlist" class="playlist"></div><p id="musicStatus" class="small-note" aria-live="polite"></p><nav><button class="text-link" data-go="bouquet">Dito pa teh →</button></nav></div></section>
+  <section class="scene" id="letter"><article class="letter-paper"><span class="botanical">❧</span><p class="eyebrow">A note from me><h1 class="script">A letter for my 21yo PRECIOUSS!!</h1><div id="letter-copy" class="letter-copy"></div><p class="signature script">With love, always</p><button class="text-link" data-go="scrapbook">Keep going →</button></article></section>
+  <section class="scene" id="booth"><div class="paper wide"><p class="eyebrow">Pa send pls</p><h1>Photobooth</h1><p class="subtitle">Take three pictures or upload kaw bahala HJAHAHHA</p><div class="coin-entry" id="coinEntry"><span class="booth-machine-name">THE MEMORY BOOTH</span><span class="coin-slot"></span><button id="insertCoin" class="coin-button">Insert a coin</button></div><div class="booth-layout"><div class="camera-frame"><video id="video" autoplay playsinline muted></video><div id="camera-placeholder">Your camera preview<br><span>will appear here</span></div><div class="booth-curtain" id="boothCurtain"></div><div class="flash" id="flash"></div></div><div class="booth-controls"><button id="cameraBtn" class="button">Turn on camera</button><button id="captureBtn" class="button" disabled>Take three photos</button><label class="button upload">Choose photos<input id="uploads" type="file" accept="image/*" multiple></label><p id="cameraStatus" class="small-note">Camera access needs your permission. You can use photos instead.</p><div id="countdown" class="countdown" aria-live="polite"></div></div></div>
+    <div class="editor"><p class="frame-heading">Photobooth time!!</p><div class="result-area"><div id="composition" class="composition"><div id="photoStrip" class="photo-strip"><div class="empty-shot"></div><div class="empty-shot"></div><div class="empty-shot"></div></div></div></div><button id="download" class="button" disabled>Prepare keepsake PNG</button><a id="downloadLink" class="button save-link" hidden download="our-photo-booth-keepsake.png">Download complete keepsake PNG</a><p id="downloadStatus" class="small-note" aria-live="polite"></p></div><nav><button class="text-link" data-go="final">One last thing →</button></nav></div></section>
+  <section class="scene" id="scrapbook"><div class="scrapbook-page"><p class="eyebrow">Our memory</p><h1>Scrapbook</h1><p class="subtitle">A few memories of us.</p><div class="memory-grid" id="memoryGrid"></div><p id="memorySentinel" class="memory-sentinel">Keep scrolling for more memories ↓</p><section id="videoMemories" class="video-memories" hidden><h2>Little moments in motion</h2><div id="videoGrid" class="video-grid"></div></section><button class="text-link" data-go="music">Continue →</button></div></section>
+  <section class="scene" id="bouquet"><div class="bloom-page"><p class="eyebrow">Flowers for youuu!!</p><h1>Precious Flowers</h1><p class="subtitle">Ikaw na pumitas</p><div class="flower-embed"><iframe src="flower.html" title="Animated lavender, rose, and poppy flowers" loading="lazy"></iframe></div><p class="garden-note-preview" id="gardenNotePreview"></p><button class="text-link" data-go="booth">Let's go to the photobooth</button></div></section>
+  <section class="scene" id="final"><div class="final-card"><div class="final-flower">❀</div><p class="eyebrow">For your birthday</p><div id="birthday-copy" class="birthday-copy"></div><button class="text-link" data-go="welcome">↶ Start again</button></div></section>
+</main><div class="progress" aria-label="Experience navigation"><button data-go="letter" title="Letter">✉</button><button data-go="scrapbook" title="Scrapbook">▧</button><button data-go="music" title="Songs">♪</button><button data-go="bouquet" title="Bouquet">❀</button><button data-go="booth" title="Photobooth">▣</button></div><div class="background-audio-control"><span id="backgroundAudioStatus" aria-live="polite"></span><button id="backgroundAudioToggle" type="button" aria-pressed="false">♫ Play background music</button></div>
+<canvas id="exportCanvas" hidden></canvas><script src="frame-data.js?v=20261110-embedded-frame-1"></script><script src="script.js?v=20261111-birthday-message-1"></script></body></html>
