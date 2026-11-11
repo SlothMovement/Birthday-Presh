@@ -3,7 +3,11 @@ const CONFIG = {
   nickname: 'Precious',
   backgroundMusic: 'assets/music/background.mp3',
   letter: `Helloooo Precious!!!,\n\nI know that I can't be there with you on your 21st bday (sayang), but I uhh still made you a gift!.\n\n There's a lot more that i wanted to say but next time na yan AHHAHAH. I hope you have fun sa party moo and i'll be waiting for the pics :>. \nalso click the bg music on the bottom left`,
-  birthday: `Heyyy it’s me again. First and foremost, I want to say that I am so so so proud of you precious!! Look at youuu all grown up now. you’re working, studying, and all of that! I see nothing but light when I look at you because you have a really bright future. Anyways, I want to say thanks to you for ya know, making my heart beat again, and for making me feel emotions when there was nothing xd. I still remember the time you said you’ll miss me back then. Man that made me so happy lol. ANYWAYS AGAIN, I wish I could've celebrate with you in person but ya know, until then, eto muna ha. Happiest birthday to you, my favorite person. Precious. Shall we travel the world together in our 30s?`,
+  birthday: `Heyyy it’s me again. First and foremost, I want to say that I am so so so proud of you precious!! Look at youuu all grown up now. 
+  you’re working, studying, and all of that! I see nothing but light when I look at you because you have a really bright future. 
+  Anyways, I want to say thanks to you for ya know, making my heart beat again, and for making me feel emotions when there was nothing xd. 
+  I still remember the time you said you’ll miss me back then. Man that made me so happy lol. ANYWAYS AGAIN, I wish I could've celebrate with you in person but ya know, 
+  until then, eto muna ha. Wishing you nothing but happiness and that may most of your dreams come true. Happiest birthday to you, my favorite person. \n And quick question, if fate allows, shall we travel together in our 30s?`,
   songs: [
     {
       title: 'Backburner',
