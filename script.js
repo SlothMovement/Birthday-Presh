@@ -2,12 +2,19 @@
 const CONFIG = {
   nickname: 'Precious',
   backgroundMusic: 'assets/music/background.mp3',
-  letter: `Helloooo Precious!!!,\n\nI know that I can't be there with you on your 21st bday (sayang), but I uhh still made you a gift!.\n\n There's a lot more that i wanted to say but next time na yan AHHAHAH. I hope you have fun sa party moo and i'll be waiting for the pics :>. \nalso click the bg music on the bottom left`,
-  birthday: `Heyyy it’s me again. First and foremost, I want to say that I am so so so proud of you precious!! Look at youuu all grown up now. 
-  you’re working, studying, and all of that! I see nothing but light when I look at you because you have a really bright future. 
-  Anyways, I want to say thanks to you for ya know, making my heart beat again, and for making me feel emotions when there was nothing xd. 
-  I still remember the time you said you’ll miss me back then. Man that made me so happy lol. ANYWAYS AGAIN, I wish I could've celebrate with you in person but ya know, 
-  until then, eto muna ha. Wishing you nothing but happiness and that may most of your dreams come true. Happiest birthday to you, my favorite person. \n And quick question, if fate allows, shall we travel together in our 30s?`,
+  letter: `Heyyy, it's me again. First and foremost, I want to say that I am so, so, so proud of you, tehh!! Look at youuu, all grown up now 21 na yarn? You're working, studying, and taking on so many things like bruhh. But honestly though, 
+  seeing you grow into the person you are today makes me so happy. I see nothing but light when I look at you because I genuinely believe you have such a bright future ahead of youuu. 
+  I hope you never forget just how capable, pretty, cute, short, and amazing you aree, even on days when things get a little difficult.
+Anyways, I also want to thank you for something. Thank you for making my heart beat again, for making me feel things 
+I thought I had forgotten how to feel, and for bringing a little more color into days that once felt so empty ya knoww lam mo na ata yan dati. 
+I don't think you realize just how much those little moments meant to me. I still remember that time you told me you'd miss me back then. Man!!! you have no idea how happy that made me HAHAHAHA. It's knida funny how something so simple can stay with someone for so long, 
+but I guess that's just how much those little moments with you mean to me.
+ANYWAYS AGAIN, I really wish I could've celebrated with you in person. I would've loved to just be there to make your day a little more special. But ya know, until then, eto muna ha. 
+I hope life gives you countless of reasons to smile, that you find happiness even in the smallest things, and that the dreams you've been quietly working towards eventually find their way to you (and sana magkajowa ka na). 
+You deserve so many beautiful things in this world, and I genuinely hope you get to experience them all.
+Happiest birthday to you, my favorite person. I'm really, really glad our paths(NIKI???) crossed.
+And one last question... if fate allows, shall we travel together in our 30s? I think that would be pretty nice, dibaaa :D`,
+  
   songs: [
     {
       title: 'Backburner',
